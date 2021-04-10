@@ -25,7 +25,7 @@ public class WeekOfYearValidator {
 
 		Date date = null;
 		try {
-			date = new SimpleDateFormat("MM/dd/yyyy").parse(reservation.getDate());
+			date = new SimpleDateFormat("yyyy-MM-dd").parse(reservation.getDate());
 		} catch (ParseException e) {
 			logger.debug("Incorrect date format", e);
 		}

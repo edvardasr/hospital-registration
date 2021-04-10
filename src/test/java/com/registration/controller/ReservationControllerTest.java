@@ -111,14 +111,14 @@ public class ReservationControllerTest {
 		reservation.setId("id");
 		reservation.setName("name");
 		reservation.setSurname("surname");
-		reservation.setDate("04/10/2021");
+		reservation.setDate("2021-04-10");
 
 		Reservation reservation1 = new Reservation();
 
 		reservation1.setId("id");
 		reservation1.setName("name");
 		reservation1.setSurname("surname");
-		reservation1.setDate("04/09/2021");
+		reservation1.setDate("2021-04-09");
 
 		List<Reservation> reservationList = new ArrayList<Reservation>();
 		reservationList.add(reservation1);
@@ -142,14 +142,14 @@ public class ReservationControllerTest {
 		reservation.setId("id");
 		reservation.setName("name");
 		reservation.setSurname("surname");
-		reservation.setDate("04/12/2021");
+		reservation.setDate("2021-04-12");
 
 		Reservation reservation1 = new Reservation();
 
 		reservation1.setId("id");
 		reservation1.setName("name");
 		reservation1.setSurname("surname");
-		reservation1.setDate("04/09/2021");
+		reservation1.setDate("2021-04-09");
 
 		List<Reservation> reservationList = new ArrayList<Reservation>();
 		reservationList.add(reservation1);
