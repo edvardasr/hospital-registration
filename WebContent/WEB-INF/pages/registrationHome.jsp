@@ -3,7 +3,7 @@
 <body>
     <h1>Pacientu registavimo sistema</h1>
 	
-	<table>
+    <table>
       <tr>
         <form method="POST" action="/RestServiceHospital/addReservation" modelAttribute="reservation">
           <td><label>Pridekite pacienta</label></td>
@@ -17,11 +17,10 @@
       </tr>
 	 
       <tr>
-          <td> <input type="text" id="id" name="id" sizwidth:100%"></td>
-   	      <td> <input type="submit" name="submit" value=Perziureti /> </td>
-   	  </tr>
-   	    </form>
-   	    
-	</table>
+          <td> <input type="text" id="id" name="id"></td>
+   	  <td> <input type="submit" name="submit" value=Perziureti /> </td>
+      </tr>
+   	 </form>
+    </table>
 </body>
 </html>
