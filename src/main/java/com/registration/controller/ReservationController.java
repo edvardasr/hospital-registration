@@ -39,7 +39,6 @@ public class ReservationController {
 
 		List<Reservation> list = repository.findAllById(id);
 		
-
 		ModelAndView model = new ModelAndView("reservationList");
 		model.addObject("list", list);
 
@@ -73,9 +72,7 @@ public class ReservationController {
 		logger.debug("Entering submit");
 
 		int targetWeek = validator.getWeekOfTheYear(reservation);
-
 		List<Reservation> reservations = repository.findAllById(reservation.getId());
-
 		for (Reservation rezervation : reservations) {
 
 			if (targetWeek == validator.getWeekOfTheYear(rezervation)) {
